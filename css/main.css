@@ -5,13 +5,17 @@ body {
 	color: #000000;
 }
 
+ul {
+	list-style: none;
+}
+
 /* The width property has been changed to max-width */
 .content-wrapper {
 	max-width: 1200px;
 	width: 90%;
 	display: flex;
 	justify-content: center;
-	flex-flow: row-wrap;
+	flex-flow: row wrap;
 }
 
 html {
@@ -24,10 +28,12 @@ h3,
 h4 {
 	text-transform: uppercase;
 	font-weight: 700;
+	
 }
 
 h1 {
 	font-size: 1.875em;
+	border-bottom: 3px solid #45610E;
 }
 
 h2 {
@@ -36,6 +42,7 @@ h2 {
 
 h3 {
 	font-size: 1.25em;
+	flex-direction: column;
 }
 
 h4 {
@@ -77,7 +84,7 @@ header nav ul li {
 	font-size: .875rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding: 0 10px;
+	padding: 10px 10px;
 	width: 100%;
 }
 
@@ -93,13 +100,17 @@ header nav ul li a {
 	width: 100%;
 	border-top: 3px solid #77A466;
 	border-bottom: 3px solid #77a466;
+	display: flex;
+	justify-content: center;
 
 }
 
 
 .main-title h2 {
 	color: #45610E;
-	padding: 5px 0;
+	padding: 5px 5px;
+	display: flex;
+	justify-content: left;
 	
 }
 
@@ -120,7 +131,9 @@ header nav ul li a {
 .section-three {
 	box-sizing: border-box;
 	padding: 0 40px;
-	width: 100%;
+	display: flex;
+	flex-direction: column;
+
 	
 }
 
