@@ -184,11 +184,55 @@ footer span {
 /*---------- TABLET ----------*/
 @media all and (min-width: 768px) {
 	/* Tablet styles here 768px and lower */
+	.bottom-section .content-wrapper {
+		justify-content: space-evenly;
+		flex-direction: row;
+	}
+	
+	.section-one {
+		width: 27%;
+	}
+	
+	.section-two {
+		width: 36%;
+		border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+		border-top: none;
+		border-bottom: none;
+		padding: 0 20px;
+	}
+	
+	.section-three {
+		width: 27%;
 	
 	}
 
 /*---------- Desktops ----------*/
-@media (min-width:1200px) {
+@media all and (min-width:1200px) {
 	/* Desktop styles here 1200px and lower */
+
+	}
+	body {
+		font-size: 1em;
+	}
+
+	header .content-wrapper {
+		justify-content:space-between;
+		align-items: center;
+		padding: 20px 0;
+	}
 	
+	header h1 {
+		width:30%;
+		padding:0;
+		border-bottom:none;
+		text-align:left;
+	}
+	header nav {
+		width: 21%;
+	}
+	
+	header nav ul {
+		display: flex; /*** this made the nav go in a row ****/
+		justify-content: space-between;  /*** this made the nav go in a row ****/
 	}
