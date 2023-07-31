@@ -137,17 +137,17 @@ header nav ul li a {
 }
 
 .section-one {
-	width: 90%;
+	width: 100%;
 }
 
 .section-two {
-	width: 90%;
+	width: 100%;
 	border-top: 5px solid #EEE;
 	border-bottom: 5px solid #EEE;
 }
 
 .section-three {
-	width: 90%;
+	width: 100%;
 }
 
 .bottom-section h3 {
@@ -190,28 +190,26 @@ footer span {
 	}
 	
 	.section-one {
-		width: 27%;
+		width: 26%;
 	}
 	
 	.section-two {
-		width: 36%;
+		width: 40%;
 		border-left: 5px solid #EEE;
 		border-right: 5px solid #EEE;
 		border-top: none;
 		border-bottom: none;
-		padding: 0 20px;
+		padding: 0 30px;
 	}
 	
 	.section-three {
-		width: 27%;
-	
+		width: 26%;
+	}
 	}
 
 /*---------- Desktops ----------*/
 @media all and (min-width:1200px) {
 	/* Desktop styles here 1200px and lower */
-
-	}
 	body {
 		font-size: 1em;
 	}
@@ -236,3 +234,4 @@ footer span {
 		display: flex; /*** this made the nav go in a row ****/
 		justify-content: space-between;  /*** this made the nav go in a row ****/
 	}
+}
